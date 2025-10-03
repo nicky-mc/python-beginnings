@@ -88,3 +88,71 @@ print(f"Hero Friends: {', '.join(hero_info['friends'])}")
 print(f"Hero Villains: {', '.join(hero_info['villains'])}")
 # The code above uses f-strings to format the output of the superhero dictionary.
 # It accesses specific values using their keys and formats lists and tuples for better readability.
+# if, elif, and else statements are used for conditional branching in Python.
+number = 10
+if number > 0:
+    print(f"{number} is a positive number.")
+elif number < 0:
+    print(f"{number} is a negative number.")
+else:
+    print(f"{number} is zero.")
+# The code above checks if a number is positive, negative, or zero and prints the appropriate message.
+# The code below demonstrates the use of logical operators (and, or, not) in conditional statements.
+age = 25
+has_id = True
+if age >= 18 and has_id:
+    print("You are allowed to enter the club.")
+else:
+    print("You are not allowed to enter the club.")
+# The code above checks if a person is old enough and has an ID to enter a club.
+# The code below demonstrates the use of nested if statements.
+score = 85
+if score >= 60:
+    if score >= 90:
+        print("You received an A.")
+    elif score >= 80:
+        print("You received a B.")
+    elif score >= 70:
+        print("You received a C.")
+    else:
+        print("You received a D.")
+else:
+    print("You received an F.")
+# The code above checks a score and prints the corresponding letter grade.
+# The code below demonstrates the use of a while loop to print numbers from 1 to 5.
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+# The code above initializes a counter variable and uses a while loop to print numbers from 1 to 5.
+# The code below demonstrates the use of a while loop to calculate the factorial of a number.
+number = 5
+factorial = 1
+while number > 1:
+    factorial *= number
+    number -= 1
+print(f"Factorial: {factorial}")
+# The code above calculates the factorial of a number using a while loop and prints the result.
+# The code below demonstrates the use of a for loop to iterate over a list of fruits.
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+# The code above iterates over a list of fruits and prints each fruit to the console.
+# The code below demonstrates the use of a for loop to iterate over a range of numbers.
+for i in range(1, 6):
+    print(i)
+# The code above uses a for loop to print numbers from 1 to 5 using the range function.
+# The code below demonstrates the use of a for loop to iterate over a dictionary.
+person = {
+    "name": "Alice",
+    "age": 28,
+    "city": "Wonderland"
+}
+for key, value in person.items():
+    print(f"{key}: {value}")
+# The code above iterates over a dictionary and prints each key-value pair using an f-string.
+# The code below demonstrates the use of a for loop with the enumerate function to get both index and value.
+colors = ["red", "green", "blue"]
+for index, color in enumerate(colors):
+    print(f"Color {index + 1}: {color}")
+# The code above uses the enumerate function to get both the index and value of each color in   the list and prints them using an f-string.
