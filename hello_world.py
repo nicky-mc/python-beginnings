@@ -156,3 +156,6 @@ colors = ["red", "green", "blue"]
 for index, color in enumerate(colors):
     print(f"Color {index + 1}: {color}")
 # The code above uses the enumerate function to get both the index and value of each color in   the list and prints them using an f-string.
+print("End of the script.")
+# The code above prints a message indicating the end of the script.
+# This is useful for debugging and understanding the flow of the program.
