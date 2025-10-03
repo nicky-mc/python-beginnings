@@ -31,4 +31,60 @@ mixed_list = [1, "two", 3.0, True]
 # The code above creates a list of mixed data types. strings, integers, floats, and booleans can all be stored in a list or array. this is a feature of dynamic typing in Python.
 print(fruits)
 print(mixed_list)
-
+coordinates = (10.0, 20.0)
+# The code above creates a tuple of coordinates. a tuple is similar to a list, but it is immutable, meaning its values cannot be changed after creation.
+rgb_color = (255, 0, 128)
+# The code above creates a tuple representing an RGB color. tuples are often used to represent fixed collections of related values.
+print(coordinates)
+print(rgb_color)
+# The code above prints the tuples to the console.
+print(f"Coordinates: {coordinates}")
+print(f"RGB Color: {rgb_color}")
+# The code above uses f-strings to format the output of the tuples.
+person = {
+    "name": "Frank Castle",
+    "age": 40,
+    "is_hero": False,
+    "skills": ["marksmanship", "hand-to-hand combat", "tactics"],
+    "enemies": ("Kingpin", "Jigsaw", "Bullseye"),
+    "address": {
+        "street": "123 Justice St",
+        "city": "New York",
+        "zip": "10001"},
+    "allies": ("Jessica Jones", "Luke Cage", "Daredevil")
+}
+# The code above creates a dictionary representing a person. a dictionary is a collection of key-value pairs, where each key is unique and maps to a specific value.
+print(person)
+# The code above prints the dictionary to the console.
+print(f"Name: {person['name']}")
+print(f"Age: {person['age']}")
+print(f"Is Hero: {person['is_hero']}")
+print(f"Skills: {', '.join(person['skills'])}")
+print(f"Enemies: {', '.join(person['enemies'])}")
+print(f"Address: {person['address']['street']}, {person['address']['city']}, {person['address']['zip']}")
+print(f"Allies: {', '.join(person['allies'])}")
+# The code above uses f-strings to format the output of the dictionary.
+# It accesses specific values using their keys and formats lists and tuples for better readability.
+hero_name = "Spider-Man"
+hero_age = 30
+hero_power = (  "wall-crawling", 
+              "enhanced strength", "spider-sense")
+hero_friends = ["Mary Jane", "Aunt May", "Harry Osborn"]
+hero_villains = ("Green Goblin", "Doctor Octopus", "Venom")
+hero_info = {
+    "name": hero_name,
+    "age": hero_age,
+    "power": hero_power,
+    "friends": hero_friends,
+    "villains": hero_villains
+}
+# The code above creates a dictionary representing a superhero. it includes various attributes such as name, age, powers, friends, and villains.
+print(hero_info)
+# The code above prints the superhero dictionary to the console.
+print(f"Hero Name: {hero_info['name']}")
+print(f"Hero Age: {hero_info['age']}")
+print(f"Hero Powers: {', '.join(hero_info['power'])}")
+print(f"Hero Friends: {', '.join(hero_info['friends'])}")
+print(f"Hero Villains: {', '.join(hero_info['villains'])}")
+# The code above uses f-strings to format the output of the superhero dictionary.
+# It accesses specific values using their keys and formats lists and tuples for better readability.
