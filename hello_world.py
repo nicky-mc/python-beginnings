@@ -26,7 +26,9 @@ print(name + " is " + str(age) + " years old.")
 print(f"{name} is {age} years old.")
 # The code above uses an f-string to format the output. an f-string is a string literal that is prefixed with 'f' or 'F' and contains expressions inside curly braces {} that are evaluated at runtime.
 fruits = ["apple", "banana", "cherry"]
+# The code above creates a list of fruits. an array is a data structure that can hold multiple values.
 mixed_list = [1, "two", 3.0, True]
+# The code above creates a list of mixed data types. strings, integers, floats, and booleans can all be stored in a list or array. this is a feature of dynamic typing in Python.
 print(fruits)
 print(mixed_list)
 
